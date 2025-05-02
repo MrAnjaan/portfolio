@@ -14,7 +14,7 @@ const Home = () => {
         <div id='main-Name' className='p-4'>
           <h1 className='text-4xl pb-2 '>Hiii, My name is</h1>
           <h1 className='pb-4 text-6xl'>Kishan.</h1>
-          <h1 className='mt -4 text-6xl text-emerald-400'>I am a Softwere Developer.</h1>
+          <h1 className='mt -4 text-6xl text-emerald-400'>I am a Software Developer.</h1>
 
           <button
             onClick={handleConnectClick}
