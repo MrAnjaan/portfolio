@@ -23,6 +23,7 @@
 
 // export default Navbar
 import React from 'react';
+import { Link } from 'react-router-dom';
 import mask from '../assets/mranjaanLogo.png';
 
 const Navbar = () => {
@@ -40,11 +41,11 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div className="flex space-x-4">
-        <a href="/" className="hover:text-pink-500">Home</a>
-        <a href="/#/products" className="hover:text-pink-500">Projects</a>
-        <a href="/#/skills" className="hover:text-pink-500">Skills</a>
-        <a href="/#/about" className="hover:text-pink-500">About</a>
-        <a href="/#/contact" className="hover:text-pink-500">Contact</a>
+        <Link to="/" className="hover:text-pink-500">Home</Link>
+        <Link to="/products" className="hover:text-pink-500">Projects</Link>
+        <Link to="/skills" className="hover:text-pink-500">Skills</Link>
+        <Link to="/about" className="hover:text-pink-500">About</Link>
+        <Link to="/contact" className="hover:text-pink-500">Contact</Link>
       </div>
 
       {/* Social Media Icons */}
